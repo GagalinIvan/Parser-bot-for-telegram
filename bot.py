@@ -5,7 +5,7 @@ import json
 from pyrogram import Client
 from pyrogram.errors import FloodWait
 
-bot = telebot.TeleBot('5438833593:AAGN6Nk85G4ZjwCzlia2pYhdF8dEmZOOnDk')
+bot = telebot.TeleBot('HERE TOKEN')
 
 @bot.message_handler(commands=['start'])
 def start(message):
